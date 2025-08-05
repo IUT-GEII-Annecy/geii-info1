@@ -1,3 +1,5 @@
+name: Sync pages from obsidian
+
 on: 
   schedule :
     - cron: '0 * * * *' # Toutes les heures
