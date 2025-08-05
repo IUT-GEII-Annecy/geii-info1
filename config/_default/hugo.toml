@@ -5,6 +5,7 @@
 theme = "congo"
 
 baseURL = "https://iut-geii-annecy.github.io/geii-info1/"
+canonifyURLs = true
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
