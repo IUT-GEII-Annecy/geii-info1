@@ -1,0 +1,38 @@
+on: 
+  schedule :
+    - cron: '0 * * * *' # Toutes les heures
+  workflow_dispatch:
+
+jobs: 
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Hugo site
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        path: hugo-site
+
+    - name: Checkout Obsidian vault
+      uses: actions/checkout@v4
+      with: 
+        repository: geoffreyv/obsidian-vault
+        token: ${{ secrets.SSH_OBSIDIAN }}
+        path: obsidian-vault
+
+    - name: Copier contenu du cours vers le contenu Hugo
+      run: |
+        rm -rf hugo-site/content/cours
+        mkdir -p hugo-site/content/cours
+        cp -r obsidian-vault/posts/* hugo-site/content/cours
+
+    - name: Convertir liens Obsidian + copier images
+      run: |
+        python3 hugo-site/scripts/convert-obsidian.py
+
+    - name: Commit et push
+      working-directory: hugo-site
+      uses: actions-js/push@master
+
+    
