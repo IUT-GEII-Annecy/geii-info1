@@ -27,7 +27,7 @@ jobs:
       run: |
         rm -rf hugo-site/content/cours
         mkdir -p hugo-site/content/cours
-        cp -r obsidian-vault/posts/* hugo-site/content/cours
+        cp -r obsidian-vault/cours/* hugo-site/content/cours
 
     - name: Convertir liens Obsidian + copier images
       run: |
