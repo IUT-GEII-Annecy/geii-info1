@@ -11,5 +11,4 @@ tags:
 ## Comment faire ? 
 Je suis le tuto de networkChuck
 
-![[Files/snapshot.jpg]]
-![Image Description](images/riviere.png)
+![Image Description]({{ "images/riviere.png" | relURL }})
