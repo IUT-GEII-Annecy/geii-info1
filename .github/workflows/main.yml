@@ -18,7 +18,7 @@ jobs:
       uses: actions/checkout@v4
       with: 
         repository: geoffreyv/obsidian-vault
-        token: ${{ secrets.SSH_OBSIDIAN }}
+        ssh-key: ${{ secrets.SSH_OBSIDIAN }}
         path: obsidian-vault
 
     - name: Copier contenu du cours vers le contenu Hugo
@@ -30,9 +30,11 @@ jobs:
     - name: Convertir liens Obsidian + copier images
       run: |
         python3 hugo-site/scripts/convert-obsidian.py
-
+        
     - name: Commit et push
-      working-directory: hugo-site
-      uses: actions-js/push@master
-
-    
+      uses: EndBug/add-and-commit@v9
+      with:
+        message: "Sync Obsidian vers Hugo"
+        add: 'content/cours'
+        cwd: hugo-site
+        default_author: github_actor
