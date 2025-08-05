@@ -7,7 +7,4 @@ Chaque semaine propose des cours, TD et TP.
 
 ---
 
-Accédez aux semaines :  
-{{ range .Sections }}  
-- [{{ .Title }}]({{ .RelPermalink }})  
-{{ end }}
+[Test2](/cours/Test2)
