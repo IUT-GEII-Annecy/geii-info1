@@ -4,7 +4,7 @@
 
 theme = "congo"
 
-# baseURL = "https://your_domain.com/"
+baseURL = "https://iut-geii-annecy.github.io/geii-info1/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
