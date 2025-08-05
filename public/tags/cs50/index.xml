@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cs50 on Congo</title>
+    <link>/tags/cs50/</link>
+    <description>Recent content in Cs50 on Congo</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/cs50/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Informatique 01 à l&#39;IUT d&#39;Annecy</title>
+      <link>/posts/test/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/test/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
