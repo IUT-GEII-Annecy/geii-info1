@@ -1,12 +1,12 @@
 ---
-title: "TP 0 - Introduction à la programmation avec Scratch"
-description: "Ce premier TP est une introduction à la programmation. Il utilise le langage scratch."
+title: TP 0 - Introduction à la programmation avec Scratch
+description: Ce premier TP est une introduction à la programmation. Il utilise le langage scratch.
+date: 2025-09-01
 ---
 
-# Introduction à la programmation avec Scratch
 Pour cette semaine 0, nous allons (re)découvrir les bases de la programmation à travers le langage Scratch. Scratch est un langage de programmation visuel, développé par le MIT, qui permet de créer facilement des animations, des jeux et des histoires interactives.
 ![scratch interface](https://cs50.harvard.edu/x/notes/0/cs50Week0Slide162.png "scratch interface")
-# Présentation de l'interface 
+## Présentation de l'interface 
 
 ![scratch interface décrite](scratch_description.png)
 
@@ -22,7 +22,7 @@ L'interface de Scratch est divisée en plusieurs sections :
 - **Liste des sprites** : où vous pouvez ajouter ou sélectionner les sprites de votre projet
 
 
-# Hello World
+## Hello World
 Pour commencer, nous allons créer un programme simple qui affiche "Hello World" à l'écran.
 
 {{< callout type="todo" title="Hello World " >}}
@@ -33,7 +33,7 @@ Pour commencer, nous allons créer un programme simple qui affiche "Hello World"
 {{< checkbox checked="false" >}}Modifier le texte pour Hello World{{< /checkbox >}}
 {{< checkbox checked="false" >}}Cliquez sur le drapeau vert pour exécuter votre programme.   {{< /checkbox >}}
 {{< checkbox checked="false" >}}Vous devriez obtenir le résultat suivant : {{< /checkbox >}}
-![scratch says hello|150](scratch_says_hello.png)
+![scratch says hello](scratch_says_hello.png)
 {{< /callout >}}
 
 

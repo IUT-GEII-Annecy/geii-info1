@@ -1,10 +1,8 @@
 ---
-title: "Cours GEII - Semestre 1"
+title: Cours GEII - Semestre 1
+date: 2025-09-01
 ---
+Cette page contient le sommaire des cours 
 
-Bienvenue sur le site du cours GEII.  
-Chaque semaine propose des cours, TD et TP.
-
----
-
-[Test2](/cours/Test2)
+- [semaine0](/cours/cours/semaine0/_index)
+- 

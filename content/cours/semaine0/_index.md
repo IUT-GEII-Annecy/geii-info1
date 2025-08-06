@@ -1,7 +1,5 @@
 ---
-title: "Cours GEII - Semestre 1"
+title: Semaine 0
+date: 2025-09-02
 ---
-
-Ceci est une autre page test. 
-
-[tp_0](/cours/tp_0)
+plop
