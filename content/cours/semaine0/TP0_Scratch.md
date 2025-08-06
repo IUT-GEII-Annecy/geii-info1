@@ -27,8 +27,7 @@ L'interface de Scratch est divisée en plusieurs sections :
 Pour commencer, nous allons créer un programme simple qui affiche "Hello World" à l'écran.
 
 {{< callout type="todo" title="Hello World " >}}
-{{< checkbox checked="false" >}}Ouvrez Scratch à l'adresse [scratch.mit.edu](https://scratch.mit.edu).{{< /checkbox >}}
-{{< checkbox checked="false" >}}Créez un nouveau projet.{{< /checkbox >}}
+{{< checkbox checked="false" >}}Ouvrez un éditeur Scratch sur le [site du MIT](https://scratch.mit.edu/projects/editor).{{< /checkbox >}}
 {{< checkbox checked="false" >}}Dans la palette de blocs, trouvez le bloc "Quand le drapeau vert est cliqué".{{< /checkbox >}}
 {{< checkbox checked="false" >}}Ajoutez le bloc "dire Bonjour pendant 2 secondes" sous le bloc précédent.{{< /checkbox >}}
 {{< checkbox checked="false" >}}Modifier le texte pour Hello World{{< /checkbox >}}
@@ -40,4 +39,16 @@ Pour commencer, nous allons créer un programme simple qui affiche "Hello World"
 
 {{< callout type="tip" title="Besoin d'aide ?" retractable="true" open="False" >}}
 Consultez la [documentation de Scratch](https://scratch.mit.edu/help) ou regardez des tutoriels en ligne.
+{{< /callout >}}
+
+## Ajoutons des variables
+>[!info] Variables
+> Les variables sont des conteneurs qui stockent des informations que vous pouvez utiliser dans votre programme. Dans Scratch, vous pouvez créer des variables pour stocker des nombres, du texte ou d'autres données.
+
+Un peu impersonnel ce "Hello World", non ? Ajoutons une variable pour personnaliser le message.
+{{< callout type="todo" title="Personnaliser le message" >}}
+{{< checkbox checked="false" >}}Créez une variable appelée "Nom".{{< /checkbox >}}
+{{< checkbox checked="false" >}}Ajoutez un bloc "demander [Quel est votre nom ?] et attendre" avant le bloc "dire".{{< /checkbox >}}
+{{< checkbox checked="false" >}}Utilisez le bloc "mettre [Nom] à [réponse]" pour stocker la réponse de l'utilisateur dans la variable "Nom".{{< /checkbox >}}
+{{< checkbox checked="false" >}}Utiliser un bloc "regrouper" pour rassembler "Bonjour" et la variable "Nom" dans le bloc "dire".{{< /checkbox >}}
 {{< /callout >}}
