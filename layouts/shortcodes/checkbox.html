@@ -1,9 +1,9 @@
 
 {{ $checked := .Get "checked" | default "false" }}
 
-<span class="checkbox-container" data-checked="{{ $checked }}">
-  <input type="checkbox" {{ if eq $checked "true" }}checked{{ end }} />
-  <span class="checkbox-label">{{ .Inner }}</span>
-</span> 
+<li class="checkbox-item">
+    <input type="checkbox" {{ if eq $checked "true" }}checked{{ end }} />
+    <span class="checkbox-label">{{ .Inner | markdownify }}</span>  
+</li>   
 
 

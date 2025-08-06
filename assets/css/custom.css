@@ -38,16 +38,17 @@ details.callout[open] summary::before {
   transform: rotate(90deg);
 }
 
-.checkbox {
-  display: inline-flex;
-  align-items: center;
+.checkbox-item {
+    list-style: none;
+    margin: 0.5em 0;
 }
-.checkbox input {
-  margin-right: 0.5em;
+.checkbox-item input[type="checkbox"] {
+    margin-right: 0.5em;
 }
-.checkbox-label {
-  cursor: pointer;
+.checkbox-item .checkbox-label {
+    display: inline-block;
+    cursor: pointer;
 }
-.checkbox[data-checked="true"] {
-  text-decoration: line-through;
+.checkbox-item input[type="checkbox"]:checked + .checkbox-label {
+    text-decoration: line-through;
 }

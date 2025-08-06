@@ -60,8 +60,20 @@ def convert_checkboxes_to_shortcodes(file_path):
     content = re.sub(r'- \[ \] (.+)', r'{{< checkbox checked="false" >}}\1{{< /checkbox >}}', content)
     file_path.write_text(content, encoding="utf-8")
 
+#Ajoute le shortcode liste ul autour de l'ensemble des cases à cocher
+def wrap_checkboxes_in_list(file_path):
+    content = file_path.read_text(encoding="utf-8")
+    # Trouver toutes les cases à cocher et les envelopper dans une liste
+    content = re.sub(r'(?:^{{< checkbox .*? >}}.*?{{< \/checkbox >}}.*\n?)+',
+                      r'{{< ulcheck >}}\g<0>{{< /ulcheck >}}', content, flags=re.DOTALL)
+    file_path.write_text(content, encoding="utf-8")
+    
+
+
 
 # Appliquer à tous les fichiers Markdown
 for md_file in input_dir.rglob("*.md"):
-    process_markdown(md_file)
     convert_checkboxes_to_shortcodes(md_file)
+    wrap_checkboxes_in_list(md_file)
+    process_markdown(md_file)
+    
