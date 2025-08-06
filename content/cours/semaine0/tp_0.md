@@ -26,13 +26,13 @@ L'interface de Scratch est divisée en plusieurs sections :
 Pour commencer, nous allons créer un programme simple qui affiche "Hello World" à l'écran.
 
 {{< callout type="todo" title="Hello World " >}}
-- [ ] Ouvrez Scratch à l'adresse [scratch.mit.edu](https://scratch.mit.edu).
-- [ ] Créez un nouveau projet.
-- [ ] Dans la palette de blocs, trouvez le bloc "Quand le drapeau vert est cliqué".
-- [ ] Ajoutez le bloc "dire Bonjour pendant 2 secondes" sous le bloc précédent.
-- [ ] Modifier le texte pour Hello World
-- [ ] Cliquez sur le drapeau vert pour exécuter votre programme.   
-- [ ] Vous devriez obtenir le résultat suivant : 
+{{< checkbox checked="false" >}}Ouvrez Scratch à l'adresse [scratch.mit.edu](https://scratch.mit.edu).{{< /checkbox >}}
+{{< checkbox checked="false" >}}Créez un nouveau projet.{{< /checkbox >}}
+{{< checkbox checked="false" >}}Dans la palette de blocs, trouvez le bloc "Quand le drapeau vert est cliqué".{{< /checkbox >}}
+{{< checkbox checked="false" >}}Ajoutez le bloc "dire Bonjour pendant 2 secondes" sous le bloc précédent.{{< /checkbox >}}
+{{< checkbox checked="false" >}}Modifier le texte pour Hello World{{< /checkbox >}}
+{{< checkbox checked="false" >}}Cliquez sur le drapeau vert pour exécuter votre programme.   {{< /checkbox >}}
+{{< checkbox checked="false" >}}Vous devriez obtenir le résultat suivant : {{< /checkbox >}}
 ![scratch says hello|150](scratch_says_hello.png)
 {{< /callout >}}
 
