@@ -1,7 +1,8 @@
 ---
 title: TP 0 - Introduction à la programmation avec Scratch
 description: Ce premier TP est une introduction à la programmation. Il utilise le langage scratch.
-date: 2025-09-01
+date: 2025-08-01
+draft: false
 ---
 
 Pour cette semaine 0, nous allons (re)découvrir les bases de la programmation à travers le langage Scratch. Scratch est un langage de programmation visuel, développé par le MIT, qui permet de créer facilement des animations, des jeux et des histoires interactives.

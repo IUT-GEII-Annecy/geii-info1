@@ -28,6 +28,8 @@ jobs:
         rm -rf hugo-site/content/cours
         mkdir -p hugo-site/content/cours
         cp -r obsidian-vault/cours/* hugo-site/content/cours
+        rm -rf hugo-site/static/images
+        mkdir -p hugo-site/static/images
 
     - name: Convertir liens Obsidian + copier images
       run: |
@@ -38,6 +40,8 @@ jobs:
       uses: EndBug/add-and-commit@v9
       with:
         message: "Sync Obsidian vers Hugo"
-        add: 'content/cours'
+        add: |
+          'content/cours'
+          'static/images'
         cwd: hugo-site
         default_author: github_actor
