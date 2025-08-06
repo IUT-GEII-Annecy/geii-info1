@@ -25,7 +25,14 @@ details.callout summary {
   outline: none;
 }
 
-
+/* Optionnel : transition + flèche, en conservant le summary */
 details.callout summary::before {
-  transition: transform 0.2s;
+  content: "▶";
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: transform 0.2s ease;
+}
+
+details.callout[open] summary::before {
+  transform: rotate(90deg);
 }
