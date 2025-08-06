@@ -2,8 +2,8 @@
 name: Deploy Hugo site to GitHub Pages
 
 on:
-  push:
-    branches: ["master"]  # ou "main" selon ta branche par défaut
+  # push:
+  #  branches: ["master"]  # ou "main" selon ta branche par défaut
   workflow_dispatch:
 
 permissions:
