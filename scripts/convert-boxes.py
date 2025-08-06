@@ -5,7 +5,7 @@ from pathlib import Path
 input_dir = Path("hugo-site/content")  # adapte selon ton projet
 
 # Types de callouts reconnus
-callout_types = ["tip", "info", "note", "warning", "danger", "quote"]
+callout_types = ["tip", "info", "note", "warning", "danger", "quote", "todo"]
 
 # Regex pour détecter les callouts Obsidian
 callout_pattern = re.compile(r'^> \[!(\w+)\](?:- (.*))?', re.IGNORECASE)
