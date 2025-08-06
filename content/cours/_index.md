@@ -1,5 +1,6 @@
 ---
-title: "Cours GEII - Semestre 1"
+title: Cours GEII - Semestre 1
+date: 2025-09-01
 ---
 
 Bienvenue sur le site du cours GEII.  
