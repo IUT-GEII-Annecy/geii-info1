@@ -1,6 +1,6 @@
 
 {{ $checked := .Get "checked" | default "false" }}
-{{ $id := printf "checkbox-%d" (add (now.Unix) (rand 1000)) }}
+{{ $id := printf "checkbox-%d" (now.UnixNano) }}
 
 
 <li class="checkbox-item">
