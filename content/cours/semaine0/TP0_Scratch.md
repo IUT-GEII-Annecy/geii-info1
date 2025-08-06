@@ -9,7 +9,7 @@ Pour cette semaine 0, nous allons (re)découvrir les bases de la programmation �
 ![scratch interface](https://cs50.harvard.edu/x/notes/0/cs50Week0Slide162.png "scratch interface")
 ## Présentation de l'interface 
 
-![scratch interface décrite](scratch_description.png)
+![scratch interface décrite](/images/scratch_description.png)
 
 L'interface de Scratch est divisée en plusieurs sections :
 - **Palette de blocs** : où vous trouverez les différents blocs de code que vous pouvez utiliser
@@ -34,7 +34,7 @@ Pour commencer, nous allons créer un programme simple qui affiche "Hello World"
 {{< checkbox checked="false" >}}Modifier le texte pour Hello World{{< /checkbox >}}
 {{< checkbox checked="false" >}}Cliquez sur le drapeau vert pour exécuter votre programme.   {{< /checkbox >}}
 {{< checkbox checked="false" >}}Vous devriez obtenir le résultat suivant : {{< /checkbox >}}
-![scratch says hello](scratch_says_hello.png)
+![scratch says hello](/images/scratch_says_hello.png)
 {{< /callout >}}
 
 
