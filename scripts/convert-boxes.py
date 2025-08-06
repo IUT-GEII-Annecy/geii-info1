@@ -25,10 +25,9 @@ def process_markdown(file_path):
                 i += 1
                 continue
 
-            # Commencer un bloc HTML
-            output_lines.append(f'<div class="callout {callout_type}">')
-            output_lines.append(f'<div class="callout-title">{title}</div>')
-            output_lines.append('<div class="callout-content">')
+
+            # Commencer un bloc shortcode Hugo
+            output_lines.append(f'{{{{< callout type="{callout_type}" >}}}}') 
 
             # Ajouter les lignes suivantes du callout
             i += 1
@@ -37,7 +36,9 @@ def process_markdown(file_path):
                 output_lines.append(content)
                 i += 1
 
-            output_lines.append('</div></div>')  # Fin du bloc callout
+            # Fin du bloc shortcode
+            output_lines.append(f'{{{{< /callout >}}}}')
+
         else:
             output_lines.append(lines[i])
             i += 1
