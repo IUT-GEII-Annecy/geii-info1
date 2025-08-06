@@ -25,7 +25,7 @@ L'interface de Scratch est divisée en plusieurs sections :
 # Hello World
 Pour commencer, nous allons créer un programme simple qui affiche "Hello World" à l'écran.
 
-{{< callout type="todo" title="Todo" >}}
+{{< callout type="todo" title="Hello World " >}}
 - [ ] Ouvrez Scratch à l'adresse [scratch.mit.edu](https://scratch.mit.edu).
 - [ ] Créez un nouveau projet.
 - [ ] Dans la palette de blocs, trouvez le bloc "Quand le drapeau vert est cliqué".
@@ -37,6 +37,6 @@ Pour commencer, nous allons créer un programme simple qui affiche "Hello World"
 {{< /callout >}}
 
 
-{{< callout type="tip" title="-" retractable="true" open="False" >}}
+{{< callout type="tip" title="Besoin d'aide ?" retractable="true" open="False" >}}
 Consultez la [documentation de Scratch](https://scratch.mit.edu/help) ou regardez des tutoriels en ligne.
 {{< /callout >}}
