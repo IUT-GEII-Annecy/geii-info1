@@ -23,6 +23,7 @@ for root, _, files in os.walk(content_dir):
                 if os.path.exists(full_img_path):
                     copy2(full_img_path, static_dir)
                     print(f"Copied image: {full_img_path} to {static_dir}")
+                    content = content.replace(f"({img_path})", f"(/images/{os.path.basename(img_path)})")
                 else:
                     print(f"Image not found: {full_img_path}")
 
