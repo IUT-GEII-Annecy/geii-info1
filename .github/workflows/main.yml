@@ -2,7 +2,7 @@ name: Sync pages from obsidian
 
 on: 
   schedule :
-    - cron: '0 * * * *' # Toutes les heures
+    - cron: '0 0 * * *' # Une fois par jour, à minuit
   workflow_dispatch:
 
 jobs: 
@@ -31,7 +31,8 @@ jobs:
 
     - name: Convertir liens Obsidian + copier images
       run: |
-        python3 hugo-site/scripts/convert_obsidian.py
+        python3 hugo-site/scripts/convert-obsidian.py
+        python3 hugo-site/scripts/convert-boxes.py
         
     - name: Commit et push
       uses: EndBug/add-and-commit@v9
