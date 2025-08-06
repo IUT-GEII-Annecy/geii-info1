@@ -8,7 +8,7 @@ input_dir = Path("hugo-site/content")  # adapte selon ton projet
 callout_types = ["tip", "info", "note", "warning", "danger", "quote", "todo"]
 
 # Regex pour détecter les callouts Obsidian
-callout_pattern = re.compile(r'^> \[!(\w+)\](?:- (.*))?', re.IGNORECASE)
+callout_pattern = re.compile(r'^> \[!(\w+)\]\s*([+-]?)\s*(.*)?$', re.IGNORECASE)
 
 def process_markdown(file_path):
     lines = file_path.read_text(encoding="utf-8").splitlines()
@@ -16,8 +16,13 @@ def process_markdown(file_path):
     i = 0
     while i < len(lines):
         match = callout_pattern.match(lines[i])
+        
         if match:
             callout_type = match.group(1).lower()
+            retractable = match.group(2) == "+" or match.group(2) == "-"
+            opened = match.group(2) == "+"
+
+            callout_tile = match.group(3) or ""
             title = match.group(2) or callout_type.capitalize()
 
             if callout_type not in callout_types:
@@ -27,7 +32,10 @@ def process_markdown(file_path):
 
 
             # Commencer un bloc shortcode Hugo
-            output_lines.append(f'{{{{< callout type="{callout_type}" >}}}}') 
+            if retractable:
+                output_lines.append(f'{{{{< callout type="{callout_type}" title="{title}" retractable="true" open="{opened}" >}}}}')
+            else:
+                output_lines.append(f'{{{{< callout type="{callout_type}" title="{title}" >}}}}')
 
             # Ajouter les lignes suivantes du callout
             i += 1

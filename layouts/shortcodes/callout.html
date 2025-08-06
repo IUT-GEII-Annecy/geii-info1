@@ -1,3 +1,19 @@
-<div class="callout {{ .Get "type" }}">
+{{ $retractable := .Get "retractable" | default false }}
+{{ $opened := .Get "open" | default false }}
+{{ $calloutType := .Get "type" | default "info" }}
+{{ $title := .Get "title" | default "Callout" }}
+
+{{ if $retractable }}
+<details class="callout {{ $calloutType }}" {{ if $opened }}open{{ end }}>
+  <summary>{{ $title }}</summary>
   {{ .Inner | markdownify }}
-</div>
+</details>
+{{ else }}
+<div class="callout {{ $calloutType }}">
+  <strong>{{ $title }}</strong>
+  {{ .Inner | markdownify }}
+</div>  
+{{ end }}
+
+
+
