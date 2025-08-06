@@ -11,4 +11,4 @@ tags:
 ## Comment faire ? 
 Je suis le tuto de networkChuck
 
-!![Image Description](/images/riviere.png)
+!![Image Description](riviere.png)
