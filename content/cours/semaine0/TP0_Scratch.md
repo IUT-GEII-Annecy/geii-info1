@@ -42,8 +42,9 @@ Consultez la [documentation de Scratch](https://scratch.mit.edu/help) ou regarde
 {{< /callout >}}
 
 ## Ajoutons des variables
->[!info] Variables
-> Les variables sont des conteneurs qui stockent des informations que vous pouvez utiliser dans votre programme. Dans Scratch, vous pouvez créer des variables pour stocker des nombres, du texte ou d'autres données.
+{{< callout type="info" title="Variables" >}}
+Les variables sont des conteneurs qui stockent des informations que vous pouvez utiliser dans votre programme. Dans Scratch, vous pouvez créer des variables pour stocker des nombres, du texte ou d'autres données.
+{{< /callout >}}
 
 Un peu impersonnel ce "Hello World", non ? Ajoutons une variable pour personnaliser le message.
 {{< callout type="todo" title="Personnaliser le message" >}}
