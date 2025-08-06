@@ -21,9 +21,9 @@ def process_markdown(file_path):
             callout_type = match.group(1).lower()
             retractable = match.group(2) == "+" or match.group(2) == "-"
             opened = match.group(2) == "+"
+            callout_tile = match.group(3) or callout_type.capitalize()
 
-            callout_tile = match.group(3) or ""
-            title = match.group(2) or callout_type.capitalize()
+            print(f"Processing callout: {callout_type}, retractable: {retractable}, title: {callout_tile}") # Debugging output
 
             if callout_type not in callout_types:
                 output_lines.append(lines[i])
@@ -33,9 +33,9 @@ def process_markdown(file_path):
 
             # Commencer un bloc shortcode Hugo
             if retractable:
-                output_lines.append(f'{{{{< callout type="{callout_type}" title="{title}" retractable="true" open="{opened}" >}}}}')
+                output_lines.append(f'{{{{< callout type="{callout_type}" title="{callout_tile}" retractable="true" open="{opened}" >}}}}')
             else:
-                output_lines.append(f'{{{{< callout type="{callout_type}" title="{title}" >}}}}')
+                output_lines.append(f'{{{{< callout type="{callout_type}" title="{callout_tile}" >}}}}')
 
             # Ajouter les lignes suivantes du callout
             i += 1
