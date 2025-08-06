@@ -18,6 +18,7 @@ enableImageWebp = true
 
 # robots = ""
 fingerprintAlgorithm = "sha256"
+customCSS = ["css/style.css"]
 
 [header]
   layout = "basic" # valid options: basic, hamburger, hybrid, custom
