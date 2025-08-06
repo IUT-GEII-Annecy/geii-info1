@@ -31,5 +31,8 @@ Pour commencer, nous allons créer un programme simple qui affiche "Hello World"
 4. Ajoutez le bloc "dire [Hello World] pendant 2 secondes" sous le bloc précédent.
 5. Cliquez sur le drapeau vert pour exécuter votre programme.   
 
-> [!tip]- Besoin d'aide ?
-> Consultez la [documentation de Scratch](https://scratch.mit.edu/help) ou regardez des tutoriels en ligne.
+<div class="callout tip">
+<div class="callout-title">Besoin d'aide ?</div>
+<div class="callout-content">
+Consultez la [documentation de Scratch](https://scratch.mit.edu/help) ou regardez des tutoriels en ligne.
+</div></div>
