@@ -23,6 +23,7 @@
 details.callout summary {
   list-style: none;
   outline: none;
+  cursor: pointer;
 }
 
 /* Optionnel : transition + flèche, en conservant le summary */
@@ -35,4 +36,18 @@ details.callout summary::before {
 
 details.callout[open] summary::before {
   transform: rotate(90deg);
+}
+
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+}
+.checkbox input {
+  margin-right: 0.5em;
+}
+.checkbox-label {
+  cursor: pointer;
+}
+.checkbox[data-checked="true"] {
+  text-decoration: line-through;
 }

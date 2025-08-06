@@ -53,6 +53,15 @@ def process_markdown(file_path):
 
     file_path.write_text("\n".join(output_lines), encoding="utf-8")
 
+def convert_checkboxes_to_shortcodes(file_path):
+    content = file_path.read_text(encoding="utf-8")
+    # Convertir les cases à cocher Obsidian en shortcodes Hugo
+    content = re.sub(r'- \[x\] (.+)', r'{{< checkbox checked="true" >}}\1{{< /checkbox >}}', content)
+    content = re.sub(r'- \[ \] (.+)', r'{{< checkbox checked="false" >}}\1{{< /checkbox >}}', content)
+    file_path.write_text(content, encoding="utf-8")
+
+
 # Appliquer à tous les fichiers Markdown
 for md_file in input_dir.rglob("*.md"):
     process_markdown(md_file)
+    convert_checkboxes_to_shortcodes(md_file)
