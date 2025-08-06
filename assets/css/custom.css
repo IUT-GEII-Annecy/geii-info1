@@ -25,11 +25,7 @@ details.callout summary {
   outline: none;
 }
 
-/* Optionnel : transition + flèche */
-details.callout[open] summary::before {
-  content: "▼ ";
-}
+
 details.callout summary::before {
-  content: "▶ ";
   transition: transform 0.2s;
 }

@@ -4,7 +4,7 @@
 {{ $title := .Get "title" | default "Callout" }}
 
 {{ if $retractable }}
-<details class="callout {{ $calloutType }}" {{ if $opened }}open{{ end }}>
+<details class="callout {{ $calloutType }}" {{ if $opened }}open=""{{ end }}>
   <summary>{{ $title }}</summary>
   {{ .Inner | markdownify }}
 </details>
