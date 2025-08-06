@@ -1,9 +1,11 @@
 
 {{ $checked := .Get "checked" | default "false" }}
+{{ $id := printf "checkbox-%d" (add (now.Unix) (rand 1000)) }}
+
 
 <li class="checkbox-item">
-    <input type="checkbox" {{ if eq $checked "true" }}checked{{ end }} />
-    <span class="checkbox-label">{{ .Inner | markdownify }}</span>  
+    <input type="checkbox" id="{{ $id }}" {{ if eq $checked "true" }}checked{{ end }} />
+    <span class="checkbox-label" for ="{{ $id }}">{{ .Inner | markdownify }}</span>  
 </li>   
 
 
