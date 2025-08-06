@@ -22,7 +22,7 @@ for root, _, files in os.walk(content_dir):
                 full_img_path = os.path.join(img_src_dir, img_path)
                 if os.path.exists(full_img_path):
                     copy2(full_img_path, static_dir)
-                    print(f"Copied image: {img_path} to {static_dir}")
+                    print(f"Copied image: {full_img_path} to {static_dir}")
                 else:
                     print(f"Image not found: {full_img_path}")
 
