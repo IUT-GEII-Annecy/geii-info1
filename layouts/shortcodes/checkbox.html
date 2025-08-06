@@ -1,5 +1,9 @@
-<span class="checkbox" data-checked="{{ .Get "checked" | default "false" }}">
-  <input type="checkbox" {{ if eq .Get "checked" "true" }}checked{{ end }} />
+
+{{ $checked := .Get "checked" | default "false" }}
+
+<span class="checkbox-container" data-checked="{{ $checked }}">
+  <input type="checkbox" {{ if eq $checked "true" }}checked{{ end }} />
   <span class="checkbox-label">{{ .Inner }}</span>
-</span>
+</span> 
+
 
