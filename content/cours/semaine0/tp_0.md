@@ -5,10 +5,11 @@ description: "Ce premier TP est une introduction à la programmation. Il utilise
 
 # Introduction à la programmation avec Scratch
 Pour cette semaine 0, nous allons (re)découvrir les bases de la programmation à travers le langage Scratch. Scratch est un langage de programmation visuel, développé par le MIT, qui permet de créer facilement des animations, des jeux et des histoires interactives.
-
+![scratch interface](https://cs50.harvard.edu/x/notes/0/cs50Week0Slide162.png "scratch interface")
 # Présentation de l'interface 
 
-![scratch interface](https://cs50.harvard.edu/x/notes/0/cs50Week0Slide162.png "scratch interface")
+![scratch interface décrite](scratch_description.png)
+
 L'interface de Scratch est divisée en plusieurs sections :
 - **Palette de blocs** : où vous trouverez les différents blocs de code que vous pouvez utiliser
     - **Mouvement** : pour déplacer les sprites
@@ -24,15 +25,17 @@ L'interface de Scratch est divisée en plusieurs sections :
 # Hello World
 Pour commencer, nous allons créer un programme simple qui affiche "Hello World" à l'écran.
 
-## Étapes à suivre :
-1. Ouvrez Scratch à l'adresse [scratch.mit.edu](https://scratch.mit.edu).
-2. Créez un nouveau projet.
-3. Dans la palette de blocs, trouvez le bloc "Quand le drapeau vert est cliqué".
-4. Ajoutez le bloc "dire [Hello World] pendant 2 secondes" sous le bloc précédent.
-5. Cliquez sur le drapeau vert pour exécuter votre programme.   
+> [!todo] Hello World 
+> - [ ] Ouvrez Scratch à l'adresse [scratch.mit.edu](https://scratch.mit.edu).
+> - [ ] Créez un nouveau projet.
+> - [ ] Dans la palette de blocs, trouvez le bloc "Quand le drapeau vert est cliqué".
+> - [ ] Ajoutez le bloc "dire Bonjour pendant 2 secondes" sous le bloc précédent.
+> - [ ] Modifier le texte pour Hello World
+> - [ ] Cliquez sur le drapeau vert pour exécuter votre programme.   
+> - [ ] Vous devriez obtenir le résultat suivant : 
+> ![scratch says hello|150](scratch_says_hello.png)
 
-<div class="callout tip">
-<div class="callout-title">Besoin d'aide ?</div>
-<div class="callout-content">
+
+{{< callout type="tip" >}}
 Consultez la [documentation de Scratch](https://scratch.mit.edu/help) ou regardez des tutoriels en ligne.
-</div></div>
+{{< /callout >}}
