@@ -13,7 +13,7 @@ Sur scratch, on affecte une valeur à une variable en utilisant le bloc "mettre 
 {{< checkbox checked="false" >}}Cliquez sur "Créer une variable" et nommez-la comme vous le souhaitez.   {{< /checkbox >}}
 Un bloc orange arrondi apparaît alors dans la palette de blocs, c'est votre variable.
 {{< /callout >}}
-![my-variable@4x.png](/cours/my-variable@4x.png)
+![Scratch3-Blocks/iCompute-Scratch3-Blocks/png/Variables/my-variable@4x.png](/cours/Scratch3-Blocks/iCompute-Scratch3-Blocks/png/Variables/my-variable@4x.png)
 
 
 Notre premier programme était très impersonnel ! Accueillons l'utilisateur avec un message personnalisé. 

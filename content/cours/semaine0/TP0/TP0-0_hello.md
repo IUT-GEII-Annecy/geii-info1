@@ -18,7 +18,7 @@ Le bloc "dire" se trouve dans la catégorie "Apparence".
 Consultez la [documentation de Scratch](https://scratch.mit.edu/help) ou regardez des tutoriels en ligne.
 {{< /callout >}}
 
-Vous êtes prêts pour commencer à jouer avec [les variables](/cours/cours/semaine0/tp0/tp0-1_variables)
+Vous êtes prêts pour commencer à jouer avec [les variables](/cours/TP0-1 Les Variables)
 
 
-[Section 1 : Les variables](/cours/cours/semaine0/tp0/tp0-1_variables)
+[Section 1 : Les variables](/cours/TP0-1 Les Variables)
