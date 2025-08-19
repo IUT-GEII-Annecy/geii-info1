@@ -1,3 +1,11 @@
+---
+title: TP 0.1 Les Variables
+description: Ce premier TP est une introduction à la programmation. Il utilise le langage scratch.
+date: 2025-08-01
+draft: false
+---
+
+
 # 1. Un premier pas vers la mémoire : les variables 
 {{< callout type="info" title="Qu'est-ce qu'une variable ?" >}}
 

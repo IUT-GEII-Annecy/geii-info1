@@ -1,3 +1,10 @@
+---
+title: TP 0.3 Les Boucles
+description: Ce premier TP est une introduction à la programmation. Il utilise le langage scratch.
+date: 2025-08-01
+draft: false
+---
+
 
 # 3. Boucles et répétitions
 ## Introduction : Un peu de mouvement

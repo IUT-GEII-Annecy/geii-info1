@@ -1,3 +1,12 @@
+---
+title: TP 0.2 Les Conditions
+description: Ce premier TP est une introduction à la programmation. Il utilise le langage scratch.
+date: 2025-08-01
+draft: false
+---
+
+
+
 # 2. Conditions : Si, alors, sinon
 {{< callout type="info" title="Qu'est-ce qu'une condition ?" >}}
 Une condition est une instruction qui permet de prendre des décisions dans un programme.

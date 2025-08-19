@@ -1,3 +1,10 @@
+---
+title: TP 0.0 Hello World
+description: Ce premier TP est une introduction à la programmation. Il utilise le langage scratch.
+date: 2025-08-01
+draft: false
+---
+
 # 0. Là où tout commence : Hello World
 Pour commencer, nous allons créer un programme simple qui affiche "Hello World" à l'écran.
 
