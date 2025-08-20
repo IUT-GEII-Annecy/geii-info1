@@ -11,8 +11,8 @@ if is_github_action:
 else:
     content_dir = Path("content/docs")
 if not content_dir.exists():
-    print(f"Content directory {content_dir} does not exist. Please check the path.")
-    exit(1)
+    print(f"Content directory {content_dir} ... Creating it.")
+    content_dir.mkdir(parents=True, exist_ok=True)
 
 # Dossier pour les images statiques
 if is_github_action:
