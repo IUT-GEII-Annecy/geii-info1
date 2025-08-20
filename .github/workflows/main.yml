@@ -8,6 +8,8 @@ on:
 jobs: 
   sync:
     runs-on: ubuntu-latest
+    outputs:
+      new-ref: ${{ steps.set-sha.outputs.sha }}
 
     steps:
     - name: Checkout Hugo site
@@ -36,6 +38,7 @@ jobs:
         python3 hugo-site/scripts/convert-obsidian.py
         
     - name: Commit et push
+      id: commit
       uses: EndBug/add-and-commit@v9
       with:
         message: "Sync Obsidian vers Hugo"
@@ -45,8 +48,18 @@ jobs:
         cwd: hugo-site
         default_author: github_actor
 
-    - name: Déployer le site Hugo
-      uses: ./.github/workflows/static.yml
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        
+    - name: Get pushed commit sha
+      id: set-sha
+      run: |
+        cd hugo-site
+        echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+  deploy:
+    needs: sync
+    uses: ./.github/workflows/static.yml
+    with:
+      ref: ${{ needs.sync.outputs.new-ref }}
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
