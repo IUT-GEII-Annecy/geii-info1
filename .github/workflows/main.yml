@@ -27,9 +27,9 @@ jobs:
 
     - name: Copier contenu du cours vers le contenu Hugo
       run: |
-        rm -rf hugo-site/content/cours
-        mkdir -p hugo-site/content/cours
-        cp -r obsidian-vault/cours/* hugo-site/content/cours
+        rm -rf hugo-site/content/docs
+        mkdir -p hugo-site/content/docs
+        cp -r obsidian-vault/cours/* hugo-site/content/docs
         rm -rf hugo-site/static/images
         mkdir -p hugo-site/static/images
 
