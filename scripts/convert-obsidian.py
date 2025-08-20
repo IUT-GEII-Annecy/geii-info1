@@ -27,9 +27,9 @@ else:
 
 # Dossier source des images
 if is_github_action:
-    img_src_dir = Path("hugo-site/obsidian-vault/Files")
+    img_src_dir = Path("obsidian-vault/Files")
 else:
-    img_src_dir = "obsidian-vault/Files"
+    img_src_dir = "Files"
 if not os.path.exists(img_src_dir):
     print(f"Image source directory {img_src_dir} does not exist. Please check the path.")
     exit(1)
