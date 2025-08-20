@@ -59,7 +59,5 @@ jobs:
     uses: ./.github/workflows/static.yml
     with:
       ref: ${{ needs.sync.outputs.new-ref }}
-    secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
