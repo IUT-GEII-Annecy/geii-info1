@@ -35,7 +35,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'   # ou '0.126.1' si tu veux figer
+          hugo-version: 'latest'   # ou '0.126.1' pour figer la version
+          extended: true           # <= active Hugo Extended
 
       - name: Build Hugo site
         run: hugo                  # génère le dossier ./public/
@@ -51,3 +52,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install npm deps (if needed)
+        run: |
+          cd <chemin_du_theme_ou_root_si_package.json>
+          npm ci
