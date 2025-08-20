@@ -1,0 +1,12 @@
+/* Supprimer la puce */
+.checkbox-item {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Style quand la case est cochée */
+.checkbox-item input[type="checkbox"]:checked + .checkbox-label {
+  text-decoration: line-through;   /* barre le texte */
+  color: #777;                     /* facultatif : griser un peu */
+}
