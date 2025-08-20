@@ -43,7 +43,7 @@ jobs:
       with:
         message: "Sync Obsidian vers Hugo"
         add: |
-          'content/cours'
+          'content/**'
           'static/images'
         cwd: hugo-site
         default_author: github_actor
