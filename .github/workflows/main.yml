@@ -1,4 +1,4 @@
-name: Sync pages from obsidian
+name: 01 - Sync pages from obsidian
 
 on: 
   schedule :
