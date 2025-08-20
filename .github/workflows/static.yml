@@ -58,7 +58,3 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install npm deps (if needed)
-        run: |
-          cd <chemin_du_theme_ou_root_si_package.json>
-          npm ci
