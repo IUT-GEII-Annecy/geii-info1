@@ -1,0 +1,38 @@
+# ---- Hugo ----
+# Dossier de sortie généré par Hugo
+/public/
+/content/
+
+# Fichiers de cache Hugo
+/resources/_gen/
+/hugo_cache/
+/hugo_stats.json
+
+# ---- Node / NPM ----
+node_modules/
+package-lock.json
+yarn.lock
+
+# ---- OS ----
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ---- Divers ----
+# Logs
+*.log
+
+# Sauvegardes / fichiers temporaires
+*.swp
+*.swo
+*.tmp
+*.bak
