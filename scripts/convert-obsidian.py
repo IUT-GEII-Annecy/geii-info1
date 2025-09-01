@@ -67,6 +67,8 @@ def replace_hint(match):
     elif hint_type == "question": 
         hint_details = hint_details.replace('^> ', '', 1)  # Remove the first "> " from the details
         return f"{{{{< details \"Question : {hint_text}\" >}}}}\n{hint_details}\n{{{{< /details >}}}}"
+    elif hint_type == "attention":
+        return f"> [!note]  \n> **Cahier des charges : {hint_text}**  \n{hint_details}"
     else:
         return f"> [!{hint_type}]  \n> **{hint_text}**  \n{hint_details}"
 
