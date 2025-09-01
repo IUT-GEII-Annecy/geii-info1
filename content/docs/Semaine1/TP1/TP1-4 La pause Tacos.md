@@ -27,6 +27,7 @@ C'est parti pour notre premier problème !
 > |---|---|
 > |Tacos|6,30 €|
 > |Kebab|5,50 €|
+> 
 > {{< checkbox checked="false" >}}Le programme écrit ensuite le message de remerciement {{< /checkbox >}}
 > ```
 > Montant total : <montant_total> euros
@@ -80,6 +81,7 @@ Même chose avec gestion des stocks
 > ```
 
 ## Bonus : Niveau 3
+
 > [!warning]  
 > **Cahier des charges - Pause Tacos - Niveau 3**  
 > {{< checkbox checked="false" >}}Même cahier des charges que précédemment {{< /checkbox >}}

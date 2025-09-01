@@ -95,7 +95,7 @@ Prêts ? Allons-y ! Nous allons écrire nos premières commandes dans le termina
 > {{< checkbox checked="false" >}}Télécharger les fichiers du tp1 : {{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Copier la commande suivante puis la coller la dans le terminal `Maj-INSER`. Appuyer sur Entrée{{< /checkbox >}}
 > 	```bash
-> 	wget https://github.com/IUT-GEII-Annecy/squelettes/raw/refs/heads/main/tp1.zip
+> 	wget https://github.com/IUT-GEII-Annecy/squelettes/releases/download/branch-2025/tp1_2025.zip
 > 	```
 > {{< checkbox checked="false" >}}Décompresser le dossier et supprimer le *.zip*{{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Exécuter la commande suivante **(Essayer l'autocomplétion en tapant `unzip t` puis en appuyant sur `Tab`)** : {{< /checkbox >}}
