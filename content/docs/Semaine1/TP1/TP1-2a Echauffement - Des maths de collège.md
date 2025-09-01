@@ -9,8 +9,8 @@ weight: 120
 ### Premier calculs : aires et périmètres
 
 #### Aire d'un rectangle
-> [!attention]  
-> **Aire d'un rectangle**  
+> [!note]  
+> **Cahier des charges : Aire d'un rectangle**  
 > - Le programme doit demander la largueur et la longueur du rectangle
 > - Le programme calcule alors l'aire du rectangle. 
 >
@@ -47,8 +47,8 @@ weight: 120
 > {{< checkbox checked="false" >}}Créer un fichier cercle.c qui répond au cahier des charges{{< /checkbox >}}
 > {{< checkbox checked="false" >}}Tester{{< /checkbox >}}
 
-> [!attention]  
-> **Cercle Niveau 1**  
+> [!note]  
+> **Cahier des charges : Cercle Niveau 1**  
 > - Le programme doit demander le rayon du cercle
 > - Il doit ensuite produire l'affichage : 
 > ```

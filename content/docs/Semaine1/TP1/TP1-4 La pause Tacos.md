@@ -14,8 +14,8 @@ C'est parti pour notre premier problème !
 > Il reçoit un client, qui lui commande un certain nombre de tacos et de kebab. 
 > Il doit alors lui dire quel est le montant total de la commande
 
-> [!attention]  
-> **Pause Tacos - Niveau 1**  
+> [!note]  
+> **Cahier des charges : Pause Tacos - Niveau 1**  
 > Le programme Affiche d'abord une phrase de bienvenue 
 > ```bash
 > Bonjour, bienvenu chez <nom_du_tacos>
@@ -54,8 +54,8 @@ C'est parti pour notre premier problème !
 ## Niveau 2 
 Même chose avec gestion des stocks
 
-> [!attention]  
-> **Pause Tacos - Niveau 2**  
+> [!note]  
+> **Cahier des charges : Pause Tacos - Niveau 2**  
 > {{< checkbox checked="false" >}}Même cahier des charges que le niveau 1 auquel s'ajoute :{{< /checkbox >}}
 > {{< checkbox checked="false" >}}Le restaurant a un stock limité. {{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Après avoir demandé le nombre de tacos et de kebab :{{< /checkbox >}}
@@ -82,8 +82,8 @@ Même chose avec gestion des stocks
 
 ## Bonus : Niveau 3
 
-> [!attention]  
-> **Pause Tacos - Niveau 3**  
+> [!note]  
+> **Cahier des charges : Pause Tacos - Niveau 3**  
 > {{< checkbox checked="false" >}}Même cahier des charges que précédemment {{< /checkbox >}}
 > {{< checkbox checked="false" >}}Si le client commande plus de 5 articles au total, une réduction de 10% est appliquée sur le montant total de la commande {{< /checkbox >}}
 > {{< checkbox checked="false" >}}Les sorties attendues sont identiques aux cahiers des charges précédents{{< /checkbox >}}
