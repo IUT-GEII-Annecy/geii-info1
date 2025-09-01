@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 
 # Dossier des fichiers Markdown
-input_dir = Path("hugo-site/content")  # adapte selon ton projet
+input_dir = Path("hugo-site/content/docs")  # adapte selon ton projet
 
 # Types de callouts reconnus
 callout_types = ["tip", "info", "note", "warning", "danger", "quote", "todo"]

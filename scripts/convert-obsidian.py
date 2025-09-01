@@ -41,7 +41,7 @@ os.makedirs(static_dir, exist_ok=True)
 # Regex
 wikilink_re = re.compile(r"\[\[([^|\]]+)(\|([^\]]+))?\]\]")
 img_re = re.compile(r'!\[(?!asciicast\])([^\]]+)\]\(([^)]+)\)')
-asciicast = re.compile(r'!\[asciicast\]\(((https?:\/\/[^)\/]+\/.*?)([^\/)]+))\.svg\)')
+asciicast = re.compile(r'!\[asciicast\]\((https?:\/\/[^)\/]+\/.*?)([^\/)]+)\.svg\)')
 hint_re = re.compile(r'^>\s*\[!(\w+)\][-+]?\s?(.*)((?:\n>\s?.*)*)', re.MULTILINE | re.IGNORECASE)
 
 def convert_checkboxes_to_shortcodes(content):
