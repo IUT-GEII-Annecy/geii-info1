@@ -7,8 +7,8 @@ weight: 103
 ---
 # Notre première variable 
 Nous allons à présent utiliser nos premières variables. Pour cela, commençons simplement avec l'exemple du cours et le cahier des charges suivant : 
-> [!attention]  
-> **Première variable**  
+> [!note]  
+> **Cahier des charges : Première variable**  
 > - Le programme doit demander le nom de l'utilisateur avec le message de votre choix.
 > - Le programme doit afficher "Hello, \<nom\>" où \<nom\> est le nom entré par l'utilisateur.
 > 

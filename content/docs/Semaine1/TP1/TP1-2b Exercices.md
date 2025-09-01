@@ -11,8 +11,8 @@ Si vous donnez des valeurs négatives en entrée des programmes précédents, il
 
 Tout le monde sait qu'une surface est toujours positive... Alors interdisons au programme de répondre n'importe quoi 
 
-> [!attention]  
-> **Valeurs négatives interdites**  
+> [!note]  
+> **Cahier des charges : Valeurs négatives interdites**  
 > - Même cahier des charges que précédemment sauf que :
 > - Après que l'utilisateur a rentré toutes les longueurs :
 > 	- Si l'utilisateur rentre une valeur négative, le programme répondra 
