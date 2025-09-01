@@ -4,6 +4,7 @@ on:
   schedule :
     - cron: '0 0 * * *' # Une fois par jour, à minuit
   workflow_dispatch:
+  push:
 
 jobs: 
   sync:
