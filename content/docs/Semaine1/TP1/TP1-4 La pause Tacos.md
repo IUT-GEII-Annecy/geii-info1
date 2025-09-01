@@ -14,8 +14,8 @@ C'est parti pour notre premier problème !
 > Il reçoit un client, qui lui commande un certain nombre de tacos et de kebab. 
 > Il doit alors lui dire quel est le montant total de la commande
 
-> [!warning]  
-> **Cahier des charges - Pause Tacos - Niveau 1**  
+> [!attention]  
+> **Pause Tacos - Niveau 1**  
 > Le programme Affiche d'abord une phrase de bienvenue 
 > ```bash
 > Bonjour, bienvenu chez <nom_du_tacos>
@@ -41,11 +41,11 @@ C'est parti pour notre premier problème !
 
 
 > [!exemple]  
-> **> [![![asciicast](https://asciinema.org/a/hD1h6Kxu9xtn1pfwgW2e7oetj.svg)](/images/hD1h6Kxu9xtn1pfwgW2e7oetj.svg)](https://asciinema.org/a/hD1h6Kxu9xtn1pfwgW2e7oetj)**  
+> **Exemple de sortie pour cet exercice**  
+> [![![asciicast](https://asciinema.org/a/hD1h6Kxu9xtn1pfwgW2e7oetj.svg)](/images/hD1h6Kxu9xtn1pfwgW2e7oetj.svg)](https://asciinema.org/a/hD1h6Kxu9xtn1pfwgW2e7oetj)
 
-
-> [!note]  
-> **À faire : Un peu d'aide ?**  
+> [!info]  
+> **Un peu d'aide ?**  
 > {{< checkbox checked="false" >}}De quelles variables avez-vous besoin ? {{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Lesquelles sont des entiers `int` ? {{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Lesquelles sont des nombres à virgule `float` ? {{< /checkbox >}}
@@ -54,8 +54,8 @@ C'est parti pour notre premier problème !
 ## Niveau 2 
 Même chose avec gestion des stocks
 
-> [!warning]  
-> **Cahier des charges - Pause Tacos - Niveau 2**  
+> [!attention]  
+> **Pause Tacos - Niveau 2**  
 > {{< checkbox checked="false" >}}Même cahier des charges que le niveau 1 auquel s'ajoute :{{< /checkbox >}}
 > {{< checkbox checked="false" >}}Le restaurant a un stock limité. {{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Après avoir demandé le nombre de tacos et de kebab :{{< /checkbox >}}
@@ -82,8 +82,8 @@ Même chose avec gestion des stocks
 
 ## Bonus : Niveau 3
 
-> [!warning]  
-> **Cahier des charges - Pause Tacos - Niveau 3**  
+> [!attention]  
+> **Pause Tacos - Niveau 3**  
 > {{< checkbox checked="false" >}}Même cahier des charges que précédemment {{< /checkbox >}}
 > {{< checkbox checked="false" >}}Si le client commande plus de 5 articles au total, une réduction de 10% est appliquée sur le montant total de la commande {{< /checkbox >}}
 > {{< checkbox checked="false" >}}Les sorties attendues sont identiques aux cahiers des charges précédents{{< /checkbox >}}

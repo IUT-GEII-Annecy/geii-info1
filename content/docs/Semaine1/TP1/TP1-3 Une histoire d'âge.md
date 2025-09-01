@@ -16,8 +16,8 @@ Exerçons-nous avec quelques conditions simple
 > cd tp1/3_age
 > ```
 
-> [!warning]  
-> **Cahier des charges - Age**  
+> [!attention]  
+> **Age**  
 > {{< checkbox checked="false" >}}Le programme demande quel age a l'utilisateur {{< /checkbox >}}
 > {{< checkbox checked="false" >}}Le programme répond alors selon la logique suivante :{{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Si l'utilisateur a strictement moins de 12 ans : `Vous êtes un enfant.`{{< /checkbox >}}

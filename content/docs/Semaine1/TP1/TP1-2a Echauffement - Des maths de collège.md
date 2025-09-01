@@ -10,7 +10,7 @@ weight: 120
 
 #### Aire d'un rectangle
 > [!attention]  
-> **Cahier des charges**  
+> **Aire d'un rectangle**  
 > - Le programme doit demander la largueur et la longueur du rectangle
 > - Le programme calcule alors l'aire du rectangle. 
 >
@@ -34,7 +34,8 @@ weight: 120
 
 
 > [!note]  
-> **À faire : > {{< checkbox checked="false" >}}Rendez-vous dans le dossier `tp1/2_geometrie`**  {{< /checkbox >}}
+> **À faire : Rectangle - Niveau 1**  
+> {{< checkbox checked="false" >}}Rendez-vous dans le dossier `tp1/2_geometrie`{{< /checkbox >}}
 > {{< checkbox checked="false" >}}Compléter le programme `rectangle.c` pour qu'il respecte le cahier des charges{{< /checkbox >}}
 
 
@@ -42,11 +43,12 @@ weight: 120
 #### Aire et périmètre d'un cercle
 
 > [!note]  
-> **À faire : > {{< checkbox checked="false" >}}Créer un fichier cercle.c qui répond au cahier des charges**  {{< /checkbox >}}
+> **À faire : Cercle - Niveau 1**  
+> {{< checkbox checked="false" >}}Créer un fichier cercle.c qui répond au cahier des charges{{< /checkbox >}}
 > {{< checkbox checked="false" >}}Tester{{< /checkbox >}}
 
 > [!attention]  
-> **Cahier des charges**  
+> **Cercle Niveau 1**  
 > - Le programme doit demander le rayon du cercle
 > - Il doit ensuite produire l'affichage : 
 > ```
