@@ -78,7 +78,7 @@ def process_content(content):
     content = wikilink_re.sub(lambda m: f"[{m.group(3) or m.group(1)}](/cours/{m.group(1)})", content)
 
     # Convert ![alt](path) → ![alt](/images/path)
-    content = img_re.sub(lambda m: f"![{m.group(1)}](/images/{os.path.basename(m.group(2))})", content)
+    #content = img_re.sub(lambda m: f"![{m.group(1)}](/images/{os.path.basename(m.group(2))})", content)
 
     content = asciicast.sub(
     lambda m: f'<script src="{m.group(1)}{m.group(2)}.js" id="{m.group(2)}" async="true"></script>',content)
@@ -117,14 +117,16 @@ for root, _, files in os.walk(content_dir):
             print("Checkboxes converted.")
 
             # Copier et corriger les images
-            for img_path in img_re.findall(content):
+            for alt_text, img_path in img_re.findall(content):
                 full_img_path = os.path.join(img_src_dir, img_path)
                 if os.path.exists(full_img_path):
                     copy2(full_img_path, static_dir)
                     print(f"Copied image: {full_img_path} → {static_dir}")
+                    # Remplace uniquement l'URL dans la syntaxe Markdown
                     content = content.replace(f"({img_path})", f"(/images/{os.path.basename(img_path)})")
                 else:
                     print(f"⚠ Image not found: {full_img_path}")
+
 
             with open(path, "w", encoding="utf-8") as f:
                 f.write(content)
