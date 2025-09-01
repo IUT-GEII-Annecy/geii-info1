@@ -70,7 +70,7 @@ Prêts ? Allons-y ! Nous allons écrire nos premières commandes dans le termina
 
 > [!note]  
 > **À faire : Premières commandes dans le terminal**  
-> <script src="https://asciinema.org/a/qiLs8ysmvZjWn8MoMIZMel1wZhttps://asciinema.org/a/.js" id="https://asciinema.org/a/" async="true"></script>
+> <script src="https://asciinema.org/a/qiLs8ysmvZjWn8MoMIZMel1wZ.js" id="qiLs8ysmvZjWn8MoMIZMel1wZ" async="true"></script>
 > {{< checkbox checked="false" >}}Télécharger les fichiers du tp1 : {{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Copier la commande suivante puis la coller la dans le terminal `Maj-INSER`. Appuyer sur Entrée{{< /checkbox >}}
 > 	```bash
