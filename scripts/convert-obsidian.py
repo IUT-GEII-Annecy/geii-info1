@@ -100,11 +100,6 @@ for root, _, files in os.walk(content_dir):
                 content = f.read()
                 print(f"Reading content from: {path}")
 
-            # Transformer le contenu
-            print("Processing links and images...")
-            content = process_content(content)
-            print("links and images done.")
-
             # Convertir les hints et questions
             print("Converting hints and questions...")
             content = hint_re.sub(replace_hint, content)
@@ -126,6 +121,11 @@ for root, _, files in os.walk(content_dir):
                     content = content.replace(f"({img_path})", f"(/images/{os.path.basename(img_path)})")
                 else:
                     print(f"⚠ Image not found: {full_img_path}")
+
+            # Transformer le contenu
+            print("Processing links and asciicasts...")
+            content = process_content(content)
+            print("links and images done.")
 
 
             with open(path, "w", encoding="utf-8") as f:
