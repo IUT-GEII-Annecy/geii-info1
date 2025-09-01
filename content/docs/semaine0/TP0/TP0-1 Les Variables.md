@@ -22,7 +22,7 @@ weight: 11
 > {{< checkbox checked="false" >}}Dans la palette de blocs, trouvez la catégorie "Variables".{{< /checkbox >}}
 > {{< checkbox checked="false" >}}Cliquez sur "Créer une variable" et nommez-la comme vous le souhaitez.   {{< /checkbox >}}
 > Un bloc orange arrondi apparaît alors dans la palette de blocs, c'est votre variable.
-![![Scratch3-Blocks/iCompute-Scratch3-Blocks/png/Variables/my-variable@4x.png](/cours/Scratch3-Blocks/iCompute-Scratch3-Blocks/png/Variables/my-variable@4x.png)](/images/my-variable@4x.png)
+![Scratch3-Blocks/iCompute-Scratch3-Blocks/png/Variables/my-variable@4x.png](/cours/Scratch3-Blocks/iCompute-Scratch3-Blocks/png/Variables/my-variable@4x.png)
 
 
 Notre premier programme était très impersonnel ! Accueillons l'utilisateur avec un message personnalisé. 
@@ -30,12 +30,12 @@ Notre premier programme était très impersonnel ! Accueillons l'utilisateur ave
 > **À faire : Personnaliser le message**  
 > {{< checkbox checked="false" >}}Créez une variable appelée "Nom".{{< /checkbox >}}
 > {{< checkbox checked="false" >}}Ajoutez un bloc "demander [Quel est votre nom ?] et attendre" avant le bloc "dire".{{< /checkbox >}}
-> ![![ask-and-wait@4x.png](/cours/ask-and-wait@4x.png)](/images/ask-and-wait@4x.png)
+> ![ask-and-wait@4x.png](/cours/ask-and-wait@4x.png)
 > - Le bloc Demander est associé à une variable spéciale appelée "réponse". Ces deux blocs se trouvent dans la catégorie Capteur ("Sensing").
 > {{< checkbox checked="false" >}}Utilisez le bloc "mettre [Nom] à [réponse]" pour stocker la réponse de l'utilisateur dans la variable "Nom".{{< /checkbox >}}
->  ![![set-variable@4x.png](/cours/set-variable@4x.png)](/images/set-variable@4x.png)
+>  ![set-variable@4x.png](/cours/set-variable@4x.png)
 > {{< checkbox checked="false" >}}Utiliser un bloc "regrouper" pour rassembler "Bonjour" et la variable "Nom" dans le bloc "dire".{{< /checkbox >}}
-> ![![join@4x.png](/cours/join@4x.png)](/images/join@4x.png)
+> ![join@4x.png](/cours/join@4x.png)
 > {{< checkbox checked="false" >}}Cliquez sur le drapeau vert pour exécuter votre programme. Vous devriez voir le sprite demander votre nom et afficher un message personnalisé.{{< /checkbox >}}
 
 ## 1.2. Nos premiers calculs 

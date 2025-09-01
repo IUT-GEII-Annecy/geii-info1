@@ -33,7 +33,7 @@ weight: 1
 
 ## Présentation de l'interface 
 
-![![scratch interface décrite](/images/scratch_description.png)](/images/scratch_description.png)
+![scratch interface décrite](/images/scratch_description.png)
 
 L'interface de Scratch est divisée en plusieurs sections :
 - **Palette de blocs** : où vous trouverez les différents blocs de code que vous pouvez utiliser

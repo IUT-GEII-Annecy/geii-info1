@@ -42,7 +42,7 @@ C'est parti pour notre premier problème !
 
 > [!exemple]  
 > **Exemple de sortie pour cet exercice**  
-> [![![asciicast](https://asciinema.org/a/hD1h6Kxu9xtn1pfwgW2e7oetj.svg)](/images/hD1h6Kxu9xtn1pfwgW2e7oetj.svg)](https://asciinema.org/a/hD1h6Kxu9xtn1pfwgW2e7oetj)
+> [<script src="https://asciinema.org/a/hD1h6Kxu9xtn1pfwgW2e7oetjhttps://asciinema.org/a/.js" id="https://asciinema.org/a/" async="true"></script>](https://asciinema.org/a/hD1h6Kxu9xtn1pfwgW2e7oetj)
 
 > [!info]  
 > **Un peu d'aide ?**  

@@ -17,7 +17,7 @@ Pour commencer, nous allons créer un programme simple qui affiche "Hello World"
 > {{< checkbox checked="false" >}}Modifier le texte pour Hello World{{< /checkbox >}}
 > {{< checkbox checked="false" >}}Cliquez sur le drapeau vert pour exécuter votre programme.   {{< /checkbox >}}
 > {{< checkbox checked="false" >}}Vous devriez obtenir le résultat suivant : {{< /checkbox >}}
-> ![![scratch says hello](/images/scratch_says_hello.png)](/images/scratch_says_hello.png)
+> ![scratch says hello](/images/scratch_says_hello.png)
 
 
 > [!tip]  
