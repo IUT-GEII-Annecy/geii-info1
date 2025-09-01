@@ -21,7 +21,7 @@ jobs:
     - name: Checkout Obsidian vault
       uses: actions/checkout@v4
       with: 
-        repository: geoffreyv/obsidian-vault
+        repository: IUT-GEII-Annecy/Supports
         ssh-key: ${{ secrets.SSH_OBSIDIAN }}
         path: obsidian-vault
 
