@@ -40,7 +40,8 @@ os.makedirs(static_dir, exist_ok=True)
 
 # Regex
 wikilink_re = re.compile(r"\[\[([^|\]]+)(\|([^\]]+))?\]\]")
-img_re = re.compile(r'!\[.*?\]\((.*?)\)')
+img_re = re.compile(r'!\[(?!asciicast\])([^\]]+)\]\(([^)]+)\)')
+asciicast = re.compile(r'!\[asciicast\]\(((https?:\/\/[^)\/]+\/.*?)([^\/)]+))\.svg\)')
 hint_re = re.compile(r'^>\s*\[!(\w+)\][-+]?\s?(.*)((?:\n>\s?.*)*)', re.MULTILINE | re.IGNORECASE)
 
 def convert_checkboxes_to_shortcodes(content):
@@ -77,7 +78,11 @@ def process_content(content):
     content = wikilink_re.sub(lambda m: f"[{m.group(3) or m.group(1)}](/cours/{m.group(1)})", content)
 
     # Convert ![alt](path) → ![alt](/images/path)
-    content = img_re.sub(lambda m: f"![{m.group(0)}](/images/{os.path.basename(m.group(1))})", content)
+    content = img_re.sub(lambda m: f"![{m.group(1)}](/images/{os.path.basename(m.group(2))})", content)
+
+    content = asciicast.sub(
+    lambda m: f'<script src="{m.group(1)}{m.group(2)}.js" id="{m.group(2)}" async="true"></script>',content)
+
 
 
     return content
