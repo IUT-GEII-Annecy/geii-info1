@@ -81,7 +81,7 @@ def process_content(content):
     #content = img_re.sub(lambda m: f"![{m.group(1)}](/images/{os.path.basename(m.group(2))})", content)
 
     content = asciicast.sub(
-    lambda m: f'<script src="{m.group(1)}{m.group(2)}.js" id="{m.group(2)}" async="true"></script>',content)
+    lambda m: f'{{< asciicast "{m.group(1)}{m.group(2)}.js" "{m.group(2)}"}}',content)
 
 
 
