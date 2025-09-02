@@ -5,19 +5,38 @@ date: 2025-08-31
 draft: false
 weight: 130
 ---
+
+# Êtes-vous majeur ? 
 Exerçons-nous avec quelques conditions simple
 
-## Niveau 1
 > [!note]  
 > **À faire : Majeur ou mineur**  
-> {{< checkbox checked="false" >}}Déplacer vous dans le dossier 3_age{{< /checkbox >}}
+> {{< checkbox checked="false" >}}aller dans le dossier `tp1/3_age` puis ouvrir age.c{{< /checkbox >}}
 > ```bash
 > cd
 > cd tp1/3_age
+> code age.c
 > ```
+> {{< checkbox checked="false" >}}Compléter le programme pour les Niveaux 1 et 2{{< /checkbox >}}
+
+## Niveau 1
 
 > [!note]  
-> **Cahier des charges : Age**  
+> **Cahier des charges : Age - Niveau 1**  
+> {{< checkbox checked="false" >}}Le programme demande quel age a l'utilisateur {{< /checkbox >}}
+> {{< checkbox checked="false" >}}Le programme répond alors selon la logique suivante :{{< /checkbox >}}
+> 	{{< checkbox checked="false" >}}Sinon, si l'utilisateur a strictement moins de 18 ans : `Vous êtes un mineur.`{{< /checkbox >}}
+> 	{{< checkbox checked="false" >}}Sinon `Vous êtes un adulte`{{< /checkbox >}}
+>---
+>**Checks:**
+> ```
+> check50 IUT-GEII-Annecy/exercices/2025/info1/tp1/3_age/niveau1
+> ```
+
+## Niveau 2
+
+> [!note]  
+> **Cahier des charges : Age - Niveau 2**  
 > {{< checkbox checked="false" >}}Le programme demande quel age a l'utilisateur {{< /checkbox >}}
 > {{< checkbox checked="false" >}}Le programme répond alors selon la logique suivante :{{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Si l'utilisateur a strictement moins de 12 ans : `Vous êtes un enfant.`{{< /checkbox >}}
@@ -29,5 +48,5 @@ Exerçons-nous avec quelques conditions simple
 >---
 >**Checks:**
 > ```
-> check50 IUT-GEII-Annecy/exercices/2025/info1/tp1/3_age/
+> check50 IUT-GEII-Annecy/exercices/2025/info1/tp1/3_age/niveau2
 > ```

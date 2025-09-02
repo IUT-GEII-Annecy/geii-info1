@@ -1,14 +1,14 @@
 ---
-title: TP 1 - Echauffement
+title: TP 1 - Un peu de géométrie
 description: Ce premier TP est une introduction à la programmation.
 date: 2025-08-31
 draft: false
 weight: 120
 ---
-## Quelques exercices
-### Premier calculs : aires et périmètres
+# Parlons surface ! 
+## Premier calculs : aires et périmètres
 
-#### Aire d'un rectangle
+### Aire d'un rectangle
 > [!note]  
 > **Cahier des charges : Aire d'un rectangle**  
 > - Le programme doit demander la largueur et la longueur du rectangle
@@ -40,7 +40,7 @@ weight: 120
 
 
 
-#### Aire et périmètre d'un cercle
+### Aire et périmètre d'un cercle
 
 > [!note]  
 > **À faire : Cercle - Niveau 1**  
