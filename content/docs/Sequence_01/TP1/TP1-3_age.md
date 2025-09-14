@@ -26,7 +26,7 @@ Exerçons-nous avec quelques conditions simple
 > {{< checkbox checked="false" >}}Le programme demande quel age a l'utilisateur {{< /checkbox >}}
 > {{< checkbox checked="false" >}}Le programme répond alors selon la logique suivante :{{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Sinon, si l'utilisateur a strictement moins de 18 ans : `Vous êtes un mineur.`{{< /checkbox >}}
-> 	{{< checkbox checked="false" >}}Sinon `Vous êtes un adulte`{{< /checkbox >}}
+> 	{{< checkbox checked="false" >}}Sinon `Vous êtes un adulte.`{{< /checkbox >}}
 >---
 >**Checks:**
 > ```
@@ -41,9 +41,9 @@ Exerçons-nous avec quelques conditions simple
 > {{< checkbox checked="false" >}}Le programme répond alors selon la logique suivante :{{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Si l'utilisateur a strictement moins de 12 ans : `Vous êtes un enfant.`{{< /checkbox >}}
 > 	{{< checkbox checked="false" >}}Sinon, si l'utilisateur a strictement moins de 18 ans : `Vous êtes un mineur.`{{< /checkbox >}}
-> 	{{< checkbox checked="false" >}}Sinon, si l'utilisateur a strictement moins de 60 ans : `Vous êtes un adulte`{{< /checkbox >}}
-> 	{{< checkbox checked="false" >}}Sinon, si l'utilisateur a strictement moins de 120 ans : `Vous êtes un sénior`{{< /checkbox >}}
-> 	{{< checkbox checked="false" >}}Sinon : `Vous êtes un menteur`{{< /checkbox >}}
+> 	{{< checkbox checked="false" >}}Sinon, si l'utilisateur a strictement moins de 60 ans : `Vous êtes un adulte.`{{< /checkbox >}}
+> 	{{< checkbox checked="false" >}}Sinon, si l'utilisateur a strictement moins de 120 ans : `Vous êtes un sénior.`{{< /checkbox >}}
+> 	{{< checkbox checked="false" >}}Sinon : `Vous êtes un menteur.`{{< /checkbox >}}
 > 
 >---
 >**Checks:**
